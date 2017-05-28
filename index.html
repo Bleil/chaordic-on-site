@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Chaordic OnSite - Arthur Bleil</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/carousel.css">
+</head>
+
+<body>
+    <div class="onsite-container">
+        <h1>Chaordic OnSite</h1>
+        <div class="onsite-recommendations">
+            <article>
+                <section class="onsite-reference">
+                    <header>Você visitou:</header>
+                    <div class="onsite-reference-item-container"></div>
+                </section>
+                <section class="onsite-recommendation">
+                    <header>e talvez se interesse por:</header>
+                    <div class="onsite-carousel-container"></div>
+                </section>
+            </article>
+            <footer></footer>
+        </div>
+        <div class="github">
+            <a href="https://github.com/Bleil/chaordic-on-site" target="_blank">
+                <img src="https://s-media-cache-ak0.pinimg.com/originals/3c/d5/67/3cd5679f54dc60811383649f9f6ea37d.png" alt="GitHub">
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/carousel/carousel.js"></script>
+    <script type="text/javascript" src="js/onsite.js"></script>
+    <script type="text/javascript">
+        (function () {
+            ChaordicOnSite.create('.onsite-carousel-container');
+        }());
+    </script>
+</body>
+
+</html>
